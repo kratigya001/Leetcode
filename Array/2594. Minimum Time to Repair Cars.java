@@ -8,7 +8,7 @@ class Solution {
         }
         return cnt >= (long) cars;
     }
-
+    
     public long repairCars(int[] ranks, int cars) {
         long low = 1;
         long high = (long) Arrays.stream(ranks).max().getAsInt() * cars * cars;
